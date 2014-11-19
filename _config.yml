@@ -1,0 +1,13 @@
+permalink: /:year/:month/:day/:title.html      #博文的固定链接
+paginate:  10                                  #分页时每页的博文数量
+author:
+    name:  李润滋
+    email: lirunzi@gmail.com
+    link:  http://lirunzi.info
+title:     李润滋的博客
+locals:
+    tags:  标签
+    about: 关于
+active:    技术
+subscribe_rss: /pages/rss.xml                  #订阅地址
+markdown:  redcarpet                           #markdown解释器
